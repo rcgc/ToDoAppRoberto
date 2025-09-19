@@ -1,0 +1,18 @@
+{
+    "tasks": [
+        {
+            "id": 0,
+            "title": "comprar la despensa",
+            "description": "comprar pan y leche",
+            "status": "Pending",
+            "timestamp": ""
+        },
+        {
+            "id": 2,
+            "title": "Barrer la habitaci\u00f3n",
+            "description": "Barrer y trapear la rec\u00e1mara personal",
+            "status": "Pending",
+            "timestamp": "2025-09-19"
+        }
+    ]
+}
