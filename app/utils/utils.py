@@ -6,7 +6,7 @@ from datetime import datetime
 
 class TaskStatus(enum.Enum):
     PENDING     = "Pending"
-    IN_PROGEESS = "In Progress"
+    IN_PROGRESS = "In Progress"
     COMPLETED   = "Completed"
 
 class Task(pydantic.BaseModel):

@@ -1,18 +1,25 @@
 {
     "tasks": [
         {
-            "id": 0,
+            "id": 1,
             "title": "comprar la despensa",
             "description": "comprar pan y leche",
             "status": "Pending",
-            "timestamp": ""
+            "timestamp": "2025-09-18"
         },
         {
             "id": 2,
             "title": "Barrer la habitaci\u00f3n",
             "description": "Barrer y trapear la rec\u00e1mara personal",
-            "status": "Pending",
+            "status": "In Progress",
             "timestamp": "2025-09-19"
+        },
+        {
+            "id": 3,
+            "title": "Hacer ejercicio",
+            "description": "Ir al gym a realizar rutina",
+            "status": "Completed",
+            "timestamp": "2025-09-22"
         }
     ]
 }
