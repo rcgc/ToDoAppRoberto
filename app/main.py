@@ -17,11 +17,14 @@ def add_task(title:str, description:str):
 
 def show_add_form():
     with st.expander("Agregar tarea", expanded=True):
-        title       = st.text_input("Título")
-        description = st.text_area("Descripción")
+        title       = st.text_input("Título", key="title_input")
+        description = st.text_area("Descripción", key="description_input")
 
         if st.button("Agregar", key="btn_add"):
             add_task(title, description)
+            #st.session_state.title_input       = ""
+            #st.session_state.description_input = ""
+            
 
 def update_task(task: Task):
     index = st.session_state.tasks.index(task)
