@@ -25,7 +25,7 @@ def get_tasks(path:str="./data/data.json"):
     except Exception as e:
         print(f"Error opening tasks file: {e}")
 
-def save_task(tasks:list, path:str="./data/data.json"):
+def save_tasks(tasks:list, path:str="./data/data.json"):
     try:
         with open(path, "w") as f:
             json.dump({"tasks": tasks}, f, indent=4)
